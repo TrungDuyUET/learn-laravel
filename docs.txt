@@ -12,6 +12,17 @@
     + Model: Object
     + View: Hiển thị dữ liệu
     + Controller: Xử lý => Load các model lên để xử lý vs nhau 
+- .env: environment
+    + file cấu hình
+    + Sửa .env => clear config => cache lại
+- database: 
+    + migration:
+        - Các file php => tạo, tương tác => csdl
+          trong 1 file có 2 hàm up và down:
+             up: thao tác vs csdl thì sẽ chạy hàm này
+             down: hủy bỏ thao tác
+
+        - php artisan migrate => up 
 
 - Blog
     + đăng ký, đăng nhập => laravel authenticate
