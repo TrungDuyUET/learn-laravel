@@ -1,0 +1,18 @@
+- laravel: php framework
+- composer: php package manager
+    + composer.json: chua toan bo cac dependencies => các thư viện 
+    + vendor (folder): chứa toàn bộ code các thư viện
+
+- Quản lý db: navicat, mysql workbenc, emma, datagrip
+- Key: mỗi ứng dụng có 1 key để mã hóa 
+    => server production, test mỗi cái 1 key 
+- artisan: công cụ của laravel viết bằng php
+    + serve: start webserver lên, start app laravel
+- MVC:
+    + Model: Object
+    + View: Hiển thị dữ liệu
+    + Controller: Xử lý => Load các model lên để xử lý vs nhau 
+
+- Blog
+    + đăng ký, đăng nhập => laravel authenticate
+
