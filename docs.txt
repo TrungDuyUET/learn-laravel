@@ -24,6 +24,17 @@
 
         - php artisan migrate => up 
 
+- Model:
+    + Lien ket Model vs migration
+    + Eloquent model => Model duoc lien ket voi migration => lien ket voi db
+    + ORM (Object Related mapping): 
+        code => luu xuong db
+        db => đọc lên thành object trên code 
+    + fillable: 
+        + Chỉ định các field sẽ được lưu xuống db  
+- Controller:
+    + La gi
+    + Resource controller => tao cac ham co san  
 - Blog
     + đăng ký, đăng nhập => laravel authenticate
 
